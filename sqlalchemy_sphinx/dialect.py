@@ -1,4 +1,5 @@
 """ Dialect implementaiton for SphinxQL based on MySQLdb-Python protocol"""
+from __future__ import unicode_literals
 
 from sqlalchemy.engine import default
 from sqlalchemy.sql import compiler
